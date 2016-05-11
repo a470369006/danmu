@@ -1,0 +1,100 @@
+body {
+    font-size: 12px;
+    font-family: "宋体", Arial, Helvetica, sans-serif;
+    color: #363636;
+    background: #e5e5e5 url(../images/bpbg.jpg) center top no-repeat;
+}
+
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+em,
+img,
+strong,
+sub,
+sup,
+tt,
+dd,
+dl,
+dt,
+form,
+label,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+ul,
+li,
+p,
+a {
+    margin: 0;
+    padding: 0;
+}
+
+.cbody {
+    margin: 0 auto;
+    width: 982px;
+    position: relative;
+    background: #FFF;
+}
+
+input,
+select,
+textarea {
+    vertical-align: middle;
+}
+
+img {
+    border: 0;
+}
+
+ul,
+li {
+    list-style-type: none;
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+    color: #010101;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #ED0909;
+}
+
+.overhide {
+    overflow: hidden;
+    text-indent: -100em;
+}
+
+.clear {
+    clear: both;
+}
+
+.clearfix:after {
+    clear: both;
+    content: ' ';
+    display: block;
+    font-size: 0;
+    line-height: 0;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
+.clearfix {
+    zoom: 1
+}
